@@ -15,12 +15,14 @@ body{
     letter-spacing: 0.03em;
     background: #F5F5F5;
     }
+    
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
-}
+    }
+
 .logo-footer{
     font-family: 'Raleway';
     font-weight: 700;
@@ -93,12 +95,11 @@ background: var(--footer-bcg);
     text-align: center;
 }
 .main-name{
+    color:var(--first-title-color) ;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16)
-    text-align: center;
-    text-align: center;
-    color:var(--first-title-color);
 }
 .main-work{
     font-size: 16px;
@@ -129,12 +130,9 @@ ul{
 }
 /* ------------PORTFOLIO------------*/
 
-.portfolio {
 
-}
-
-.portfolio-nav :hover,
-.portfolio-nav :focus {
+.portfolio .portfolio-nav :hover,
+.portfolio .portfolio-nav :focus {
 color: var(--first-color);
 background-color: var(--logo-item-color);
 }
