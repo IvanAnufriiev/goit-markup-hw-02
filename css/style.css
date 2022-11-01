@@ -147,11 +147,9 @@ background-color: var(--logo-item-color);
     text-align: center;
     color: var(--first-title-color);
     border: none;
+    cursor: pointer
 }
 
-.cursors {
-
-}
 
 .portfolio-list {
 color: var(--first-title-color);
