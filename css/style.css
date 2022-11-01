@@ -70,7 +70,7 @@ background: var(--footer-bcg);
 .main-button{
     color: var(--first-color);
     background-color: var(--logo-item-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     cursor: pointer
 }
 .main-characteristics{
@@ -140,7 +140,7 @@ background-color: var(--logo-item-color);
 }
 
 .site-nav {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
